@@ -88,3 +88,42 @@ img {
 	font-size: 10px;
 	font-family: 'Lexend Deca', sans-serif;
 }
+@media only screen and (max-width: 800px) {
+  img {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    margin-top: 2rem;
+    height:auto;
+    margin-left: 2px;
+    margin-right: 2px;
+
+  }
+  h1,
+  p {
+    padding: 10px 2px 60px 10px;
+  }
+  table {
+    margin-left: 2px;
+    padding-left: 10px;
+  }
+  .table_data {
+    padding-right: 80px;
+
+  }
+  main {
+    margin: 1rem;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  img {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    margin-top: 2rem;
+    height:auto;
+    margin-left: 2px;
+    margin-right: 2px;
+
+  }
